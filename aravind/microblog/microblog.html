@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microblog with Image</title>
+  <link rel="stylesheet" href="microblog.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Microblog</h1>
+
+    <div class="post-form">
+      <textarea id="postInput" placeholder="What's on your mind?" rows="4"></textarea>
+      <input type="file" id="imageInput" accept="image/*">
+      <button id="postButton">Post</button>
+    </div>
+
+    <div class="posts" id="postsContainer">
+      <!-- Posts will appear here -->
+    </div>
+  </div>
+
+  <script src="microblog.js"></script>
+</body>
+</html>
+
